@@ -1,0 +1,7 @@
+.producthome-main{
+    background-color: yellow;
+}
+.producthome-main .producthome-card{
+    display: flex;
+    flex-direction: row;
+}

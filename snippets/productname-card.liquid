@@ -1,0 +1,18 @@
+{% comment %} 
+                                                  Descripcion de mi snippet 
+                                                  Usage: 
+                                                  accepts: 
+{% endcomment %}
+
+<div>
+  <h3>{{ data.product_text }}</h3>
+  <div>
+    {{ data.product_image | image_url: width: 200 | image_tag: alt: "hola" }}
+  </div>
+  <p>{{ data.product_number | money }}</p>
+  <button
+    id="{{ data.button_id }}"
+    data-name="{{ data.product_text }}"
+    data-price="{{data.product_number |  money}}">
+    {{ data.button_text }}</button>
+</div>

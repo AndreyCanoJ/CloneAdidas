@@ -9,10 +9,6 @@
 */
 {
   "sections": {
-<<<<<<< HEAD
-    "slider-banner" : {
-      "type": "custom-slider"
-=======
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -58,6 +54,52 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "productcard_home_J8izq4": {
+      "type": "productcard-home",
+      "blocks": {
+        "product_EEEKE9": {
+          "type": "product",
+          "settings": {
+            "product_home": "",
+            "product_number": 5686,
+            "product_text": "Producto 1",
+            "product_image": "shopify:\/\/shop_images\/pngtree-cartoon-shirt-and-tie-on-a-beige-background-vector-png-image_12230368.png",
+            "button_text": "Agregar al carrito",
+            "button_id": "btn_1"
+          }
+        },
+        "product_qrymNQ": {
+          "type": "product",
+          "settings": {
+            "product_home": "",
+            "product_number": 12324,
+            "product_text": "Producto 2",
+            "product_image": "shopify:\/\/shop_images\/blue-shirt-cartoon-mascot-png.webp",
+            "button_text": "Agregar al carrito",
+            "button_id": "btn_2"
+          }
+        },
+        "product_XKyyCD": {
+          "type": "product",
+          "settings": {
+            "product_home": "",
+            "product_number": 3456,
+            "product_text": "Producto 3",
+            "product_image": "shopify:\/\/shop_images\/a7466565223fff3f7c976a30cfc83331-dibujos-animados-de-camiseta-azul.webp",
+            "button_text": "Agregar al carrito",
+            "button_id": "btn_3"
+          }
+        }
+      },
+      "block_order": [
+        "product_EEEKE9",
+        "product_qrymNQ",
+        "product_XKyyCD"
+      ],
+      "settings": {
+        "product_title": "PRODUCTOS"
       }
     },
     "rich_text": {
@@ -231,11 +273,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
->>>>>>> main
     }
   },
   "order": [
-    "slider-banner"
-   
+    "image_banner",
+    "productcard_home_J8izq4",
+    "rich_text",
+    "featured_collection",
+    "collage",
+    "video",
+    "multicolumn"
   ]
 }
